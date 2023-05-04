@@ -29,7 +29,7 @@ h1{
 button{
     display: block;
     width: 100%;
-    padding: 15px;
+    padding: 13px;
     background-color: rgb(18, 201, 79);
     color: white;
     font-size: 16px;
@@ -44,11 +44,6 @@ a{
 a:hover{
     text-decoration: underline;
 }
-#check{
-    width: 20px;
-    margin-top: auto;
-
-}
 .required::before{
     content: "*";
     color: red;
@@ -61,10 +56,11 @@ a:hover{
 }
 #prefrences {
     width: fit-content;
+    display: block;
 }
 
-#prefrences_label {
+#updates {
     display: inline;
     font-weight: 200;
+    margin-bottom: 10px;
 }
-
