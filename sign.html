@@ -1,48 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>sign in</title>
-    <link rel="stylesheet" src="style.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h5>Join GitHub</h5>
-    <h1>First, let's create your user account</h1>
-    <div>
+    <div class="container">
+      <p id="git">Join GitHub</p>
+      <h1>First, let's create your user account</h1>
+
       <form>
-        <label for="username">Username*</label>
+        <label for="username" class="required">Username</label>
         <input type="text" name="username" />
 
-        <label for="email">Email address*</label>
+        <label for="email" class="required">Email address</label>
         <input type="email" name="email" />
 
-        <label for="Password">Password*</label>
+        <label for="Password" class="required">Password</label>
         <input type="text" name="Pasword" />
 
-        <h5>
+        <p>
           Make sure its atleast 15 charcters OR at least 8 character including a
-          number and a lowercase letter.
-        </h5>
-        <a href="#">Learn more</a>
+          number and a lowercase letter.<br />
+          <a href="#">Learn more</a>
+        </p>
 
-        <h4>Email prerences</h4>
+        <label for="prefences">Email prefrences</label>
 
-        <input type="checkbox" name="check" />
-        <label for="check">
-          Send me occasional product updates, announcements, and offers</label
+        <input type="checkbox" id="prefrences" name="prefrences" />
+
+        <label for="prefrences" id="prefrences_label"
+          >Send me occasional product updates, announcements, and offers.</label
         >
 
         <button type="submit">Create account</button>
-        <p>
-          By creating an account, you agree to the
-          <a href="#">terms of service</a>. For more information about GitHub's
-          privacy practices , see the
-          <a href="#">GitHub Privacy Statement.</a>We'll occasionally send you
-          account-related emails.
-        </p>
       </form>
+      <p>
+        By creating an account, you agree to the
+        <a href="#">Terms of Service.</a> For more information about GitHub's
+        privacy practices, see the
+        <a href="#">GitHub Privacy Statement.</a> We'll occasionally send you
+        account-related emails.
+      </p>
     </div>
   </body>
 </html>

@@ -1,3 +1,70 @@
-body{
+*{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 600px;
+    padding:20px;
+    border:none;
+    margin: 0 auto;
+    background-color: white;
+}
+label{
+    display:block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    width: fit-content;
+}
+input{
+    padding: 10px;
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid rgb(228, 214, 214);
+}
+h1{
+    text-align: center;
     
 }
+button{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(18, 201, 79);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#check{
+    width: 20px;
+    margin-top: auto;
+
+}
+.required::before{
+    content: "*";
+    color: red;
+    float:right;
+}
+#git{
+    text-align: center;
+    opacity: 0.5;
+    font-weight: 500;
+}
+#prefrences {
+    width: fit-content;
+}
+
+#prefrences_label {
+    display: inline;
+    font-weight: 200;
+}
+
