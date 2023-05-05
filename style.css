@@ -22,6 +22,8 @@ input{
     width: 100%;
     border-radius: 3px;
     border: 1px solid rgba(209, 203, 203, 0.842);
+    background-color:rgba(209, 203, 203, 0.842);
+        
 }
 h1{
     text-align: center;
