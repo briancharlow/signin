@@ -56,7 +56,7 @@ a:hover{
 }
 #prefrences {
     width: fit-content;
-    display: block;
+    display: inline;
 }
 
 #updates {
