@@ -13,7 +13,7 @@ label{
     margin-bottom: 10px;
     font-weight: bold;
     width: fit-content;
-    background-color: rgb(241, 228, 228);
+    
 }
 input{
     padding: 10px;
@@ -21,7 +21,7 @@ input{
     margin-bottom: 20px;
     width: 100%;
     border-radius: 3px;
-    border: 1px solid rgb(228, 214, 214);
+    border: 1px solid rgba(209, 203, 203, 0.842);
 }
 h1{
     text-align: center;
