@@ -13,6 +13,7 @@ label{
     margin-bottom: 10px;
     font-weight: bold;
     width: fit-content;
+    background-color: rgb(241, 228, 228);
 }
 input{
     padding: 10px;
